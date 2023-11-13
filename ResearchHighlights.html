@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cong Chen - Project Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Some basic styling to position elements */
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .project img {
+            max-width: 200px; /* Adjust image size */
+            margin-right: 20px;
+        }
+        .project .description {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ResearchHighlights.html">Research Highlights</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="others.html">Others</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="cv-container">
+        <div class="cv-header">
+            <h1>Cong Chen</h1>
+            <p>Research Highlights</p>
+        </div>
+        
+        <div class="cv-main">
+            <h2>Highlight 1: Large-scale DER aggregation</h2>
+            <div class="image-container">
+                <figure class="centered-figure">
+                    <img src="img/Tesla_image.jpg" alt="Tesla_image Image">
+                    <figcaption>An example of distributed energy resource aggregator (DERA) is the Tesla virtual power plant.</figcaption>
+                </figure>
+            </div>          
+            <!-- <img src="img/Tesla_image.jpg" alt="Tesla_image Image" width="250" height="200"> -->
+            <div class="project">
+                <img src="img/project1_image.jpg" alt="Project 1 Image">
+                <div class="description">
+                    <h3>Market-based coordination mechanism for DSO-DERA-ISO </h3>
+                    <p>I proposed a novel coordination mechanism in the form of a forward auction to allocate 
+                        the dynamic distribution network accesses to DERAs. The proposed allocation mechanism 
+                        decouples DSO-DERA-ISO real-time operations and achieves the simplest coordination with 
+                        minimal deviation from the standard operating procedures. I established theoretical results 
+                        about individual rationality, revenue adequacy, and price monotonicity for the proposed 
+                        mechanism in both robust and risk (CVaR) based allocations.
+                        <a href="https://arxiv.org/abs/2307.01999">[link]</a> </p>
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="img/project2_image.jpg" alt="Project 2 Image">
+                <div class="description">
+                    <h3>Competitive DER aggregation and bidding algorithm </h3>
+                    <p>I proposed the first profit-maximizing competitive DER aggregation solution for a DERA to 
+                        participate in the wholesale electricity market as a virtual storage participant. The 
+                        proposed aggregation solution ensures that customers of the DERA receive surplus competitive 
+                        with than under the utility's retail rate. And the social surplus achieved the same level as 
+                        if individual customers directly participate in the wholesale market with its DERs.
+                        <a href="https://arxiv.org/abs/2307.02004">[link]</a></p>
+                </div>
+            </div>
+
+            <!-- Add more projects using the same structure -->
+            <p>&nbsp;</p> 
+            <p>&nbsp;</p>  
+            <p>&nbsp;</p>             
+            <h2>Highlight 2: Storage participation in electricity markets</h2>
+            <div class="image-container">
+                <figure class="centered-figure">
+                    <img src="img/SoCdependent.jpg" alt="SoCDepended" width="450" height="350">
+                    <figcaption>California independent system operator initiatives the proposal for storgae SoC-dependent bid.</figcaption>
+                </figure>
+            </div>  
+            <h3>Convexifying electricity markets clearing with SoC-dependent bid  </h3>
+            <p>Wholesale market operators are considering allowing merchant storage participants 
+                to submit state-of-charge (SoC) dependent bids to capture more accurately the operation 
+                and opportunity costs  of storage. However, SoC-dependent bid results in an intractable 
+                market-clearing model. I proposed a sufficient condition over the SoC-dependent bid to 
+                remove the non-convexity and made the multi-interval dispatch with SoC-dependent bids a 
+                standard convex piece-wise linear program. Such a convex market clearing for SoC-dependent 
+                bid increased storage profits and decreased system cost, compared to SoC-independent bid.
+                <a href="https://ieeexplore.ieee.org/abstract/document/10037211">[link]</a> </p>
+            <div class="image-container">
+                <figure class="centered-figure">
+                    <img src="img/CVX.png" alt="CVX" width="450" height="350">
+                    <figcaption>In this toy example, the left is nonconvex storage bid-in cost; and the right is convex with the 
+                        sufficient condition represented by the red arrow.
+                    </figcaption>
+                </figure>
+            </div>   
+        
+        <!-- Add other content related to project experience here -->
+    </div>
+</body>
+</html>

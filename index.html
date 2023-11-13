@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Academic CV</title>
+    <title>Cong Chen - Academic CV</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Some basic styling to position elements */
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .project img {
+            max-width: 450px; /* Adjust image size */
+            margin-right: 20px;
+        }
+        .project .description {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="ResearchHighlights.html">Research Highlights</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="others.html">Others</a></li>
             </ul>
@@ -26,12 +47,27 @@
         
         <div class="cv-main">
             <h2>About Me</h2>
-            <p>&nbsp;</p> 
             <p>I'm Cong Chen, a Ph.D. candidate supervised by <a href="https://people.ece.cornell.edu/ltong/">Prof.Lang Tong</a> in the Dept. of Electrical and Computer Engineering (ECE) 
-                at Cornell University. My research interests lie in the intersection of power system engineering, optimization theory, power system economics, and electricity markets. 
-                My current research focuses on decarbonization solutions through large-scale aggregation of distributed energy resources, battery storage participation in wholesale and 
-                retail electricity markets, and alternative energy resources such as green hydrogen. My hobbies are hiking, photography, playing the piano, rock climbing, and snowboarding. </p>
+                at Cornell University. </p> 
             <p>&nbsp;</p> 
+            <div class="project">
+                <img src="img/Outline.jpg" alt="Research Outline">
+                <div class="description">
+                    <!-- <h3>Market-based coordination mechanism for DSO-DERA-ISO </h3> -->
+                    <p>
+                        My current research focuses on decarbonization solutions through large-scale aggregation of distributed energy resources, battery storage participation in wholesale and 
+                        retail electricity markets, and alternative energy resources such as green hydrogen. </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/Outline2.jpg" alt="Research Outline1" width="250" height="200">
+                <div class="description">
+                    <!-- <h3>Market-based coordination mechanism for DSO-DERA-ISO </h3> -->
+                    <p>Broadly speaking, my research interests lie in the intersection of power system engineering, optimization theory, power system economics, and electricity markets. 
+                         </p>
+                </div>
+            </div>
+            <p> My hobbies are hiking, photography, playing the piano, rock climbing, and snowboarding. </p> 
             <p>&nbsp;</p>   
             <h2>Bio</h2>
             <p> Cong Chen is currently a Ph.D. candidate in Electrical Engineering from the Dept. of Electrical and Computer Engineering at Cornell University. She is pursuing one Ph.D. major in Electrical 
